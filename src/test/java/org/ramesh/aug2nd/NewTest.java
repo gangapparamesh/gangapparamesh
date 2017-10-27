@@ -20,6 +20,8 @@ WebDriver driver;
 		System.out.println("changed secondly");
 		System.out.println("commiting to Remote repositories");
 		System.out.println("commiting to Remote repositories 2nd time");
+		System.out.println("commited in github");
+		
 		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
