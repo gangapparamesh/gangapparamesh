@@ -16,6 +16,7 @@ public class NewTest {
 WebDriver driver;
 	@Test
 	public void login() {
+		System.out.println("changed firstly");
 		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
