@@ -1,0 +1,12 @@
+<suite name="suite11">
+<test name="test11">
+	<classes>
+		<class name = "org.ramesh.aug2nd.NewTest"></class>
+		
+	
+	</classes>
+
+</test>
+
+
+</suite>
