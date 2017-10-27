@@ -18,6 +18,7 @@ WebDriver driver;
 	public void login() {
 		System.out.println("changed firstly");
 		System.out.println("changed secondly");
+		System.out.println("commiting to Remote repositories");
 		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
