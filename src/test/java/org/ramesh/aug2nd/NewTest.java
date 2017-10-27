@@ -45,7 +45,7 @@ WebDriver driver;
 		driver.findElement(By.xpath("//input[@id=\"firstName\"]")).sendKeys("sel12");
 		driver.findElement(By.xpath("//*[@id=\"lastName\"]")).sendKeys("sel1");
 		driver.findElement(By.xpath("//input[@id='btnSave']")).click();
-		driver.close();
+		//driver.close();
 	}
 
 	@AfterClass
